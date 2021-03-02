@@ -88,7 +88,7 @@ class _FujitsuDragNDropBoardState extends State<FujitsuDragNDropBoard> {
               return;
             } else {
               ScaffoldMessenger.of(context)
-                  .showSnackBar(SnackBar(content: Text("Saved Successfully")));
+                  .showSnackBar(SnackBar(content: Text("Error while saving")));
             }
           },
           color: Theme.of(context).accentColor,
